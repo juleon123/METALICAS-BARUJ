@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Metalicas-Baruj">
+    <meta name="keywords" content="Canales, Campanas, Ductos, cotizar, Metalicas Baruj">
+    <meta name="description" content="Solución a los tiempos dificiles">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo-otras.css">
+    <link rel="stylesheet" href="css/estilo-patodo.css">
+    <link rel="stylesheet" href="css/bootstrap-5.2.0-dist/css/bootstrap.min.css">
+
+    <title>Metalicas-Baruj</title>
+    <link rel="icon" href="recursos/logo-min.png">
+</head>
+<body>
+    <!-- --------------------------------BARRA DE NAV-------------------------------- -->
+    <header>
+        <nav class="nav-principal px-5">
+            <a href="index.html" class="logo">
+                <img src="recursos/logotipo.png" alt="Logo de la empresa">
+            </a>
+
+            <div  class="menu" onclick="menuopen()">
+                <img src="recursos/iconos/menu_hamburguesa.png">
+            </div>
+
+            <ul id="lista" class="barra_nav close" style="padding-left:0;">
+                <li class="btn_txt">
+                    <a href="index.html" id="navegador1" onclick="bt_select(this.id)">INICIO</a></li>
+                <li class="btn_txt">
+                    <a href="canales.html" id="navegador2" onclick="bt_select(this.id)">CANALES</a></li>
+                <li class="btn_txt" >
+                    <a href="campanas.html" id="navegador3" onclick="bt_select(this.id)">CAMPANAS</a></li>
+                <li class="btn_txt">
+                    <a href="ductos.html" id="navegador4" onclick="bt_select(this.id)">DUCTOS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- --------------------------------PRIMERA-SECCIÓN-------------------------------- -->
+    <section id="triple-foto" class="container-fluid pt-3" style="padding-left:0 ; padding-right:0; margin-left:0; margin-right: 0;">
+        <h1 class="text-center mt-5 pt-5">DUCTOS</h1>
+        <div class="row tres-fotos-grupo" style="padding-left:0 ; padding-right:0; margin-left:0; margin-right: 0; ">
+
+            <div class="col-4 foto-principal" style="padding-left:0 ; padding-right:0; margin-left:0; margin-right: 0;">
+                <img src="recursos/productos/ducto.jpeg" alt="imagenes de mostrario de ductos">
+            </div>
+            <div class="col-4 foto-principal" style="padding-left:0 ; padding-right:0; margin-left:0; margin-right: 0;">
+                <img src="recursos/productos/ducto_redondo.jpeg" alt="imagenes de mostrario de ductos">
+            </div>
+            <div class="col-4 foto-principal" style="padding-left:0 ; padding-right:0; margin-left:0; margin-right: 0;">
+                <img src="recursos/productos/ducto.jpeg" alt="imagenes de mostrario de ductos">
+            </div>
+        </div>
+    </section>
+    <!-- --------------------------------SEGUNDA SECCIÓN-------------------------------- -->
+    <section id="datos_cotizacion" class="container-fluid">
+        <form class="row datos_imagen">
+            <div class="col-6">
+                <div class="row datos_principal">
+                    <div class="col-lg-5">
+                        <div class="row">
+                            <label class="col-12" for="">DESARROLLO</label>
+                            <input class="col-12"type="text">
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-5">
+                        <div class="row">
+                            <label class="col-12" for="">LARGO</label>
+                            <input class="col-12"type="text">
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-5">
+                        <div class="row">
+                            <label class="col-12" for="">MATERIAL</label>
+                            <input class="col-12"type="text">
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-5">
+                        <div class="row">
+                            <label class="col-12" for="">CALIBRE</label>
+                            <input class="col-12"type="text">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="imagen_representativa col-5">
+                <img src="recursos/productos-explicación/canaleta.png" alt="imagen con las partes de una canal">
+            </div>
+
+        </form>
+
+
+        <a type="button" class=" col-lg-4 col-md-5 col-sm-12 boton_datos_aceptar" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            ACEPTAR
+        </a>
+
+      <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">COTIZACIÓN</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="datos">
+                        <div class="dato">
+                            <h5>CALIBRE</h5>
+                            <div class="cuadro_dato">18</div>
+                        </div>
+                        <div class="dato">
+                            <h5>CALIBRE</h5>
+                            <div class="cuadro_dato">18</div>
+                        </div>
+                        <div class="dato">
+                            <h5>CALIBRE</h5>
+                            <div class="cuadro_dato">18</div>
+                        </div>
+                        <div class="dato">
+                            <h5>CALIBRE</h5>
+                            <div class="cuadro_dato">18</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+              <button type="button" class="btn btn-primary d-flex envia_wsp" style="padding:0 ; margin: 0; ">
+                <a href="#" class="contacta_asesor p-1">Contacta un asesor</a></button>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="ase">
+    <div class="ase_dos">
+        <p>¿NO SABES COTIZAR?</p>
+        <a href="" class="asesoramiento_directo">TE ASESORAMOS</a>
+    </div>
+        </div>
+
+
+    </section>
+    <!-- --------------------------------TERCERA SECCIÓN-------------------------------- -->
+    <section id="materiales" class="container-fluid mt-5 pt-3">
+        <h2 class="text-center">MATERIALES</h2>
+        <div class="row materiales_informacion">
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-6 barras">
+                        <div class="texto_barras">
+                            LAMINA
+                            <div class="recomendado">RECOMENDADO</div>
+                        </div>
+                        <div class="barra_azul">
+                            <div class="relleno"></div>
+                        </div>
+                    </div>
+                    <div class="col-6 texto_materiales">
+                        <div><p>Material ligero usado para tramos largos, durabilidad media 5-10 años, precio economico.</p></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 barras">
+                        <div class="texto_barras">
+                            ACERO
+                        </div>
+                        <div class="barra_azul">
+                            <div class="relleno"></div>
+                        </div>
+                    </div>
+                    <div class="col-6 texto_materiales">
+                        <div><p>Material pesado, usado para tramos muy cortos o con necesidad de calidad excelente, durabilidad alta 10-18 años, precio elevado.</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+<!-- FOOTER -->
+<footer>
+
+    <div class="row pt-lg-5 footer">
+
+        <div class="col-lg-3 col-md-12 my-5 mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d497.00690571866176!2d-74.03268898065585!3d4.760403045614115!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sco!4v1668741420675!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <p>Nos encontramos en <strong>Calle 183 #10-12</strong></p>
+        </div>
+
+        <div class="col-lg-3 col-md-12 mt-5 pt-5 d-flex">
+            <div class="d-flex icono-wsp">
+                <a target="_blank" href="https://web.whatsapp.com" class="icono_whatsapp">
+                <img src="recursos/iconos/whatsapp.png" alt="icono de whatsapp">
+                </a>
+                <a target="_blank" href="https://web.whatsapp.com" class="texto_icono_wsp">
+                COTIZA CON NOSOTROS
+                </a>
+            </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-12 my-5 iconos_tales">
+            <div class="row lo_otro">
+                <div class="siguenos w-100 d-lg-none d-md-block text-center">SIGUENOS EN NUESTRAS REDES</div>
+                <div class="row iconos_esos w-lg-50 p-lg-5">
+                    <a  target="_blank" href="facebook.com" class="col-lg-5 col-2 iconos-de-redes">
+                        <img src="recursos/iconos/facebook.png" alt="icono de Facebook">
+                    </a>
+
+                    <a  target="_blank" href="" class="col-lg-5  col-2 iconos-de-redes">
+                        <img src="recursos/iconos/instagram.png" alt="icono de Instagram">
+                    </a>
+
+                    <a  target="_blank" href="" class="col-lg-5 col-2 iconos-de-redes">
+                        <img src="recursos/logotipo.png" alt="icono de metalicas baruj">
+                    </a>
+
+                    <a  target="_blank" href="" class="col-lg-5  col-2 iconos-de-redes">
+                        <img src="recursos/iconos/twitter.png" alt="icono de Twitter">
+                    </a>
+            </div>
+            </div>
+
+
+        </div>
+    </div>
+    <p class="pagina_creada">pagina creada por <strong>Metalicas Baruj</strong> el <time>2022</time></p>
+</footer>
+
+</body>
+<script src="css/bootstrap-5.2.0-dist/js/bootstrap.js"></script>
+<script src="javascript/menuh.js"></script>
+</html>

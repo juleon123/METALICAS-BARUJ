@@ -1,0 +1,196 @@
+:root{
+    --azul-claro:#007FC6;
+    --azul-oscuro:#1959A6;
+    --azul-complementario-uno:#00e2ff;
+    --azul-complementario-dos:#062D59;
+    --naranja:#FF6D00;
+    --naranja-complentario:#FF7D19;
+}
+
+.tres-fotos-grupo{
+    display: flex;
+    height: 100vh;
+
+}
+.tres-fotos-grupo .foto-principal{
+    height: 100%;
+}
+
+
+.tres-fotos-grupo .foto-principal img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* FOTO Y DATOS */
+#datos_cotizacion{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top:200px ;
+
+}
+
+.modal{
+    margin-top:20vh;
+}
+
+.envia_wsp{
+    justify-content: center;
+    align-content: center;
+}
+
+
+
+.datos_imagen{
+    width: 70%;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+}
+.datos_principal{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+.datos_principal div{
+    margin: 10px;
+}
+
+.imagen_representativa{
+    height: 300px;
+
+}
+.imagen_representativa img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.boton_datos_aceptar{
+    margin: 50px 2000px;
+    display: flex;
+    background-color: var(--azul-claro);
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    min-width: 200px;
+    max-width: 300px;
+    width: 100%;
+    height: 100%;
+    transition: 0.4s;
+}
+
+.boton_datos_aceptar:hover{
+    color: white;
+
+    background: black;
+}
+
+
+.contacta_asesor{
+    color: white;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.contacta_asesor:hover{
+    color: white;
+}
+
+.ase{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+.ase_dos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.ase_dos p{
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+}
+.ase_dos a{
+    width: 100%;
+    background-color: var(--azul-claro);
+    text-align: center;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 1.5em;
+    border-radius: 10px;
+}
+.ase_dos a:hover{
+    background-color:black;
+    color: white;
+    font-weight: bold;
+}
+
+/* -------------------------------MATERIALES------------------------------- */
+#materiales{
+    display:flex ;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+#materiales h2{
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+
+.materiales_informacion{
+    width: 60%;
+
+}
+
+.barras{
+
+    height: 200px;
+}
+
+.recomendado{
+    font-size: 0.6em;
+    background-color: var(--naranja);
+    display: flex;
+    height: 100%;
+    padding: 5px;
+    border-radius: 10px;
+    justify-content: center;
+    align-content: center;
+}
+
+.texto_barras{
+    font-size: 1.3em;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+.barra_azul{
+    width: 100%;
+    height: 40px;
+    background-color: gray;
+    display: flex;
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+.relleno{
+    width: 50%;
+    background-color: #007FC6;
+}

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Metalicas-Baruj">
+    <meta name="keywords" content="Canales, Campanas, Ductos, cotizar, Metalicas Baruj">
+    <meta name="description" content="Solución a los tiempos dificiles">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/estilo-patodo.css">
+    <link rel="stylesheet" href="css/bootstrap-5.2.0-dist/css/bootstrap.min.css">
+
+    <title>Metalicas-Baruj</title>
+    <link rel="icon" href="recursos/logo-min.png">
+</head>
+<body>
+    <!-- BARRA DE NAV -->
+    <header>
+        <nav class="nav-principal px-5">
+            <a href="index.html" class="logo">
+                <img src="recursos/logotipo.png" alt="Logo de la empresa">
+            </a>
+
+            <div  class="menu" onclick="menuopen()">
+                <img src="recursos/iconos/menu_hamburguesa.png">
+            </div>
+
+            <ul id="lista" class="barra_nav close">
+                <li class="btn_txt">
+                    <a href="#slider_primer" id="navegador1" onclick="bt_select(this.id)">INICIO</a></li>
+                <li class="btn_txt">
+                    <a href="canales.html" id="navegador2" onclick="bt_select(this.id)">CANALES</a></li>
+                <li class="btn_txt" >
+                    <a href="campanas.html" id="navegador3" onclick="bt_select(this.id)">CAMPANAS</a></li>
+                <li class="btn_txt">
+                    <a href="ductos.html" id="navegador4" onclick="bt_select(this.id)">DUCTOS</a></li>
+            </ul>
+        </nav>
+    </header>
+<!-- SLIDER -->
+    <section id="slider_primer" class="container-fluid">
+        <!-- SLIDER -->
+
+        <div class="row todotext" style="margin-left: 0; margin-right: 0; padding-left:0; padding-right: 0;">
+            <div class="col-12 imagen-header" style="margin-left: 0; margin-right: 0; padding-left:0; padding-right: 0;" >
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="recursos/logo-iluminado.jpg" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="recursos/red-social.jpg" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="recursos/productos/toldo.jpg" class="d-block w-100">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+<!-- ---------------------------------------------- -->
+                <div class="textoflotante d-none d-lg-flex row">
+                    <div class="icono-flotante col-12 p-2"><img src="recursos/logo-min.png" ></div>
+                    <div class="parrafo-flotante col-12 text-center">
+                        <p>Por adquisiciones mayores a 700.000 se incluye transporte gratuito</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+<!-- PRIMERA SECCION -->
+    <section id="quienes_somos" class="container-fluid">
+        <div class="row">
+            <div class="parte_rojo col-6"><h1>¿QUIENES SOMOS?</h1></div>
+            <div class="col-lg-6 col-md-6 col-sm-12 "><p class="parte_texto">Somos una micro-empresa multifuncional especializada en todo lo relacionado en metales, como lo son:<br>estructuras, exhibiciones metalicas, campanas ductos, puertas, etc.<br>Para el mejoramiento y funcionamiento de diferentes areas como restaurantes, cafeterias, almacenes, hogares o en construcción.</p></div>
+        </div>
+
+
+    </section>
+    <!-- SECCION DE VIDEO -->
+    <section id="video" class="container-fluid my-5 p-5" >
+        <div class="videito">
+            <iframe src="https://www.youtube.com/embed/aX07DydzeCg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen alt="video promocional de metalicas Baruj"></iframe>
+        </div>
+
+    </section>
+<!-- SECCION TRES PRODUCTOS -->
+    <section id="ofrecemos" class="conteiner-fluid">
+        <h2 class="text-center my-3 w-100">PRODUCTOS QUE OFRECEMOS</h2>
+        <a href="#" class="cotiza-boton">
+            COTIZA CON NOSOTROS
+        </a>
+        <div class="row conjunto_tres"
+        style="margin-left: 0; margin-right: 0; padding-left:0; padding-right: 0;" >
+            <div class="col-lg-3 col-md-3 col-sm-12 tres_productos my-2">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-6 donde_img" style="padding-left: 0; padding-right:0;">
+                        <img src="recursos/productos/canal.jpeg" alt="Imagen de una canal de lluvia">
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-6 parte_de_color px-lg-5">
+                        <h3>CANALES</h3>
+                        <p>La funcion de las canales es llevar un flujo de agua de lluvia hacia la bajante.</p>
+                        <a class="boton_color px-5" href="">ver más</a></div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12  tres_productos my-2">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-6 donde_img" style="padding-left: 0; padding-right:0;">
+                        <img src="recursos/productos/campana-negra.jpeg" alt="Imagen de una campana extractora"></div>
+                    <div class="col-lg-12 col-md-12 col-sm-6 parte_de_color px-lg-5">
+                        <h3>CAMPANAS</h3>
+                        <p>Las campanas se encargan de recoger y acumular el humo o vapor generado por alguna fuente de calor</p>
+                        <a class="boton_color px-5" href="">ver más</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12 tres_productos my-2">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-6 donde_img" style="padding-left: 0; padding-right:0;">
+                        <img src="recursos/productos/ducto.jpeg" alt="Imagen de un ducto">
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-6 parte_de_color px-lg-5">
+                        <h3>DUCTOS</h3><p>Los ductos son los encargados de dar ventilación a lugares cerrados o transportar y extraer el humo o vapor.</p>
+                        <a class="boton_color px-5" href="">ver más</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+<!-- FOOTER -->
+<footer>
+
+    <div class="row pt-lg-5 footer">
+
+        <div class="col-lg-3 col-md-12 my-5 mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d497.00690571866176!2d-74.03268898065585!3d4.760403045614115!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sco!4v1668741420675!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <p>Nos encontramos en <strong>Calle 183 #10-12</strong></p>
+        </div>
+
+        <div class="col-lg-3 col-md-12 mt-5 pt-5 d-flex">
+            <div class="d-flex icono-wsp">
+                <a target="_blank" href="https://web.whatsapp.com" class="icono_whatsapp">
+                <img src="recursos/iconos/whatsapp.png" alt="icono de whatsapp">
+                </a>
+                <a target="_blank" href="https://web.whatsapp.com" class="texto_icono_wsp">
+                COTIZA CON NOSOTROS
+                </a>
+            </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-12 my-5 iconos_tales">
+            <div class="row lo_otro">
+                <div class="siguenos w-100 d-lg-none d-md-block text-center">SIGUENOS EN NUESTRAS REDES</div>
+                <div class="row iconos_esos w-lg-50 p-lg-5">
+                    <a  target="_blank" href="facebook.com" class="col-lg-5 col-2 iconos-de-redes">
+                        <img src="recursos/iconos/facebook.png" alt="icono de Facebook">
+                    </a>
+
+                    <a  target="_blank" href="" class="col-lg-5  col-2 iconos-de-redes">
+                        <img src="recursos/iconos/instagram.png" alt="icono de Instagram">
+                    </a>
+
+                    <a  target="_blank" href="" class="col-lg-5 col-2 iconos-de-redes">
+                        <img src="recursos/logotipo.png" alt="icono de metalicas baruj">
+                    </a>
+
+                    <a  target="_blank" href="" class="col-lg-5  col-2 iconos-de-redes">
+                        <img src="recursos/iconos/twitter.png" alt="icono de Twitter">
+                    </a>
+            </div>
+            </div>
+
+
+        </div>
+    </div>
+    <p class="pagina_creada">pagina creada por <strong>Metalicas Baruj</strong> el <time>2022</time></p>
+</footer>
+
+
+</body>
+<script src="css/bootstrap-5.2.0-dist/js/bootstrap.js"></script>
+<script src="javascript/menuh.js"></script>
+</html>
